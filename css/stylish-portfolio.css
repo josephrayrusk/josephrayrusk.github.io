@@ -47,13 +47,16 @@ h2 {
   font-size: 100px;
   color: white;
 }
+h1 {
+	color: white;
+}
 
 .quotes {display: none;}​
 
 .quotes2 {display: none;}​
 
 h3 {
-  color: #ccdfcb
+  color: #ccdfcb;
 }
 
 .text-faded {
