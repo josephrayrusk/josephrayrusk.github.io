@@ -107,8 +107,9 @@ h3 {
   display: flex;
 }
 .masthead {
-  min-height: -webkit-fill-available;
-  max-height: auto;
+	height:100%;
+	height: -webkit-fill-available;
+	height: fill-available;
   background-color:  #056571;
   background-position: center center;
   background-repeat: no-repeat;
@@ -116,6 +117,7 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	overflow: hidden;
 }
 
 .masthead2 {
