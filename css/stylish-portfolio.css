@@ -107,7 +107,7 @@ h3 {
   display: flex;
 }
 .masthead {
-  min-height: 30rem;
+  min-height: -webkit-fill-available;
   max-height: auto;
   background-color:  #056571;
   background-position: center center;
