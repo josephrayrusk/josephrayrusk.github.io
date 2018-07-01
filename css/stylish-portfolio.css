@@ -72,6 +72,9 @@ h3 {
   .map {
     height: 75%;
   }
+	h3 {
+		font-size: 1rem;
+	}
 }
 
 .map iframe {
