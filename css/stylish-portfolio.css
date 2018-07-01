@@ -76,8 +76,9 @@ h3 {
 		font-size: 1rem;
 	}
 	.container{
-		margin-left: 10px;
-		padding-left: 10px;
+		margin: auto;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
 
@@ -128,8 +129,9 @@ h3 {
 }
 
 .masthead2 {
-  min-height: 30rem;
-  max-height: auto;
+  height:100%;
+	height: -webkit-fill-available;
+	height: fill-available;
   position: relative;
   align-items: center;
   background-color:  #ff6a56;
