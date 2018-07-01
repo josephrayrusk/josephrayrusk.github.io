@@ -129,7 +129,7 @@ h3 {
 }
 
 .masthead2 {
-  height:100%;
+	height:100%;
 	height: -webkit-fill-available;
 	height: fill-available;
   background-color:  #ff6a56;
