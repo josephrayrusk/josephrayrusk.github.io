@@ -20,8 +20,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: auto;
+  padding-bottom: auto;
 }
 
 .content-section-heading h2 {
