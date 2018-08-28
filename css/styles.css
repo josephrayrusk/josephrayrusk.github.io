@@ -11,16 +11,6 @@ margin: auto;
  width:100%;
  height:100%;
 }
-.parallax {
-  [class*="bg__"] {
-    position : relative;
-
-    height : 50vh;
-
-    background-attachment : fixed;
-    background-position   : top center;
-    background-size       : cover;
-  }
   
 img.resize {
   max-width:25%;
