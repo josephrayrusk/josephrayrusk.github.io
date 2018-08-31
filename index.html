@@ -4,7 +4,7 @@
   <head>
     <style type="text/css">
       .mobileHide { display: inline; }
-    
+
       /* Smartphone Portrait and Landscape */
       @media only screen
         and (min-device-width : 320px)
@@ -13,7 +13,7 @@
       }
        /* Desktop */
       .deskHide { display: inline; }
-      
+
        @media only screen
         and (min-device-width : 480px){
          .deskHide { display: none;}
@@ -29,21 +29,31 @@
     <!-- Bootstrap Core CSS -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+<<<<<<< HEAD
 
+    <!-- CSS -->
+=======
     <!-- Custom CSS -->
+>>>>>>> 863a7b74e4cfba6fe6a107f8fda4f4da4b78041b
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
-  <header class="mobileHide">  
+<<<<<<< HEAD
+
+  <header class="mobileHide">
     <div class="row">
+=======
+	  
+  <header class="mobileHide">  
+    <div id="intro" class="row">
+>>>>>>> 863a7b74e4cfba6fe6a107f8fda4f4da4b78041b
         <div class="masthead flex col-8">
            <div class="container text-center my-auto">
                <h2 class="quotes">Hello!</h2>
@@ -64,18 +74,15 @@
     </div>
  </header>
   <headermobile class="deskHide">
- <div class="">
         <div class="masthead flex">
            <div class="container text-center my-auto">
                         <h1 class="mb-1">joseph rusk</h1>
                         <h3 class="mb-5">
                           <em>FULLSTACK DEVELOPER</em>
                         </h3>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Learn More</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#aboutm">Learn More</a>
                   </div>
-           </div>
-            </div>
-    </div>
+	  </div>
   </headermobile>
 <!- Left and right column opposite colors as previous section.  Have button options appear in left column->
     <!-- About -->
@@ -85,11 +92,11 @@
           <img src="./img/JRR.png" class="img">
         </div>
   <div class="flex masthead col-8">
-        <section class="container my-auto">    
+        <section class="container my-auto">
 <div style="text-align:right">
   <h1>about me</h1><br>
   <h3>
-    I am a Jr Developer looking to work with incredible teams on innovative projects and bring my best to everything I set my hands too.<br><br>
+    I am a Software Developer looking to work with incredible teams on innovative projects and bring my best to everything I set my hands too.<br><br>
       I willingly embrace the unknown and conquer every problem before me.<br><br>
       If you trust me to get something done, it will be completed and exceed expectations. <br><br>
       I thrive in team environments where active involvement can create a better end result.
@@ -103,48 +110,50 @@
   </div>
 </div>
 </div>
-	
+
 	<!-- Mobile View -->
 	<div class="deskHide">
- <div class="row" id="about">
+ <div class="" id="aboutm">
   <div class="flex masthead2">
-        <section class="container my-auto">    
-<div style="text-align:right">
-  <h1>about me</h1><br>
+        <section class="container my-auto text-center">
+<div>
+	<br><br>
+	<h1>About Me</h1>
+	<br>
   <h3>
-    I am a Jr Developer looking to work with incredible teams on innovative projects and bring my best to everything I set my hands too.<br><br>
+    I am a Software Developer looking to work with incredible teams on innovative projects and bring my best to everything I set my hands too.<br><br>
       I willingly embrace the unknown and conquer every problem before me.<br><br>
       If you trust me to get something done, it will be completed and exceed expectations. <br><br>
       I thrive in team environments where active involvement can create a better end result.
   </h3>
 	<br>
-<a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">What I Do</a>
 
 </div>
-
+			<div class="text-center"><a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">What I Do</a></div>
+	<br><br>
       </section>
   </div>
 </div>
 </div>
     <!-- Services -->
-    <div class="bg-primary"></div>
-    <section class="content-section text-white text-center masthead" id="services">
-      <h1>my specialties</h1><br>
+	<div class="mobileHide"><div class="bg-primary"></div></div>
+  <section class="row flex masthead" id="services">
+      <div class="container text-center my-auto"><h1>my specialties</h1><br>
 		<h3>C#, MVC & ASP.NET<br><br>
       HTML, CSS & JAVASCRIPT<br><br>
       SQL & SQL SERVER <br><br>
 			TEAM MANAGEMENT<br><br>
 			KNOCKOUT.JS, BOOTSTRAP & JQUERY<br><br>
-			ADOBE ILLUSTRATOR, PHOTOSHOP<br><br>
-			<a class="btn btn-primary btn-xl js-scroll-trigger" href="#resume">more detail?</a>
-			</section>
+			ADOBE ILLUSTRATOR, PHOTOSHOP<br><br></h3>
+		  <a class="btn btn-primary btn-xl js-scroll-trigger" href="#resume">More Detail?</a></div>
+	   </section>
 
     <section class="masthead center" style="background-color: #ff6a56" id="resume">
       <div class="text-center">
-        <a class="btn btn-primary btn-xl" download="/files/Joseph_Rusk_Resume.pdf">grab my resume</a>
+        <a class="btn btn-primary btn-xl" href="https://josephrayrusk.github.io/files/Joseph%20Rusk%20Resume.pdf" target="_blank">Grab My Resume</a>
       </div>
     </section>
-		
+
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -156,7 +165,7 @@
             </a>
           </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Joseph Rusk</p>
+        <p class="text-muted small mb-0">Copyright &copy; Joseph Raymond Rusk</p>
       </div>
     </footer>
 
@@ -171,6 +180,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+	 <!--scrollmagic and greensock-->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -178,7 +193,6 @@
     <!-- Custom scripts -->
     <script src="js/stylish-portfolio.min.js"></script>
     <script src="js/stylish-portfolio.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
   </body>
 
 </html>

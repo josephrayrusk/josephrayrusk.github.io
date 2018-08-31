@@ -20,8 +20,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: auto;
+  padding-bottom: auto;
 }
 
 .content-section-heading h2 {
@@ -47,13 +47,16 @@ h2 {
   font-size: 100px;
   color: white;
 }
+h1 {
+	color: white;
+}
 
 .quotes {display: none;}​
 
 .quotes2 {display: none;}​
 
 h3 {
-  color: #ccdfcb
+  color: #ccdfcb;
 }
 
 .text-faded {
@@ -69,6 +72,18 @@ h3 {
   .map {
     height: 75%;
   }
+	h3 {
+		font-size: 1rem;
+	}
+	.container{
+		margin: auto;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.row {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
 }
 
 .map iframe {
@@ -104,8 +119,9 @@ h3 {
   display: flex;
 }
 .masthead {
-  min-height: 30rem;
-  max-height: auto;
+	height:100%;
+	height: -webkit-fill-available;
+	height: fill-available;
   background-color:  #056571;
   background-position: center center;
   background-repeat: no-repeat;
@@ -113,13 +129,13 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	overflow: hidden;
 }
 
 .masthead2 {
-  min-height: 30rem;
-  max-height: auto;
-  position: relative;
-  align-items: center;
+	height:100%;
+	height: -webkit-fill-available;
+	height: fill-available;
   background-color:  #ff6a56;
   background-position: center center;
   background-repeat: no-repeat;
@@ -127,6 +143,7 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	overflow: hidden;
 }
 
 .masthead3 {
@@ -434,7 +451,6 @@ a:hover, a:focus, a:active {
 
 }
 
-}
 
 .text-primary {
   color: #1D809F !important;
