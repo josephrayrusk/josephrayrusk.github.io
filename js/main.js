@@ -7,7 +7,7 @@ $(document).ready(function() {
 la.staggerFromTo(logoParts, 1, {opacity: 0, y: -200}, {opacity: 1, y: 0}, 0.5, 1)
   .to(logo, 0.1,{scale: 1.05, delay: 2})
   .to(logo, 0.5,{opacity: 0, y: -20, scale: 0.4, ease: SlowMo.ease.config(0.4,0.7,false)})
-  .to(loading, 0.3,{height: 0})
+  .to(loading, 0.1,{height: 0})
   .to(main, 0 ,{height: 100, display: 'block'}, '-=0.3');
 
 
