@@ -1,0 +1,165 @@
+#main {
+  height: 0;
+  display: none; }
+
+body {
+  font-family: 'Source Sans Pro'; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+h1, h2, h3 {
+  font-weight: 700;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+h1 {
+  font-size: 100px;
+  color: #fff; }
+
+h3 {
+  color: #F5F5F5;
+  font-size: 1em; }
+
+ul {
+  line-height: 2em; }
+
+.container {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.landing {
+  background: black;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative; }
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh; }
+
+.flex {
+  display: flex; }
+
+.c1 {
+  background-color: #008c95; }
+
+.c2 {
+  background-color: #ff6a56; }
+
+.img {
+  padding: 300px; }
+
+.logo-colorone {
+  fill: #008c95; }
+
+.logo-colortwo {
+  fill: #fff; }
+
+.logo {
+  width: 300px;
+  align-self: center;
+  margin-left: 100px;
+  animation-name: animatelogo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: forwards; }
+
+.logo-colorone {
+  fill: #008c95; }
+
+.logo-colortwo {
+  fill: #ff6a56; }
+
+@keyframes animatelogo {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@media (min-width: 700px) {
+  h3 {
+    font-size: 50px; } }
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  border-width: 3px;
+  border-radius: 50px 50px 50px 50px; }
+
+.btn-primary {
+  background-color: #008c95 !important;
+  border-color: #9FE9F1 !important;
+  color: #fff !important; }
+
+.btn-primary:hover {
+  background-color: #ccdfcb !important;
+  border-color: #008c95 !important;
+  color: #ff6a56 !important; }
+
+.btn-primary:focus, .btn-primary:active {
+  background-color: #ccdfcb !important;
+  border-color: #ff6a56 !important;
+  color: #ff6a56 !important; }
+
+.btn-secondary {
+  background-color: #ff6a56 !important;
+  border-color: #ecb807 !important;
+  color: #fff !important; }
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #ccdfcb !important;
+  color: #008c95 !important; }
+
+.btn-dark {
+  color: #fff !important; }
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  font-size: 40px; }
+
+.bg-primary {
+  background-color: white !important;
+  transform: skewY(2deg);
+  height: 100px;
+  margin: -50px;
+  background-size: cover; }
+
+.textOverlay {
+  transition: all .2s; }
+
+.txtOverlay:hover {
+  transform: scale(1.02); }
+
+.owl {
+  position: absolute;
+  right: 0;
+  top: 10vh; }
+
+.eyes {
+  fill: #953d3d;
+  stroke: #000;
+  stroke-width: 2.5px; }
+
+.eyeball {
+  fill: #ebebeb;
+  stroke: #000;
+  stroke-width: 2.5px; }
+
+/*# sourceMappingURL=main.css.map */

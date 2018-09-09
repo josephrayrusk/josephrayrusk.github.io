@@ -1,0 +1,202 @@
+$color-one: #008c95;
+$color-two: #ff6a56;
+$color-three: #fff;
+$heading: #fff ;
+$subHeading: #F5F5F5;
+$btnHover: #ba9106;
+$bR: 50px 50px 50px 50px;
+
+#main {
+  height: 0;
+  display: none;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+h1,h2,h3 {
+  font-weight: 700;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+h1 {
+  font-size: 100px;
+  color: $heading;
+}
+h3 {
+  color: $subHeading;
+  font-size: 1em;
+}
+ul {
+  line-height: 2em;
+}
+.container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing {
+  background: black;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.flex {
+  display: flex; }
+
+.c1 {
+  background-color: $color-one; }
+
+.c2 {
+  background-color: $color-two; }
+.img {
+  padding: 300px;
+}
+
+.logo-colorone {
+  fill: $color-one;
+}
+.logo-colortwo {
+  fill: $color-three;
+}
+
+.logo {
+  width: 300px;
+  align-self: center;
+  margin-left: 100px;
+  animation-name: animatelogo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+}
+.logo-colorone {
+  fill: $color-one;
+}
+.logo-colortwo {
+  fill: $color-two;
+}
+
+@keyframes animatelogo {
+  from {
+        opacity: 0;
+      }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 700px){
+h3 {
+  font-size: 50px;
+}
+
+}
+
+// Buttons -----------------
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  border-width: 3px;
+  border-radius: $bR;
+}
+
+.btn-primary {
+  background-color: $color-one !important;
+  border-color: #9FE9F1 !important;
+  color: $color-three !important;
+}
+
+.btn-primary:hover {
+  background-color: #ccdfcb !important;
+  border-color: $color-one !important;
+  color: $color-two !important;
+}
+
+
+.btn-primary:focus, .btn-primary:active {
+  background-color: #ccdfcb !important;
+  border-color: $color-two !important;
+  color: $color-two !important;
+}
+
+.btn-secondary {
+  background-color: $color-two !important;
+  border-color: #ecb807 !important;
+  color: $color-three !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #ccdfcb !important;
+  color: $color-one !important;
+}
+
+.btn-dark {
+  color: $color-three !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.bg-primary {
+  background-color: white !important;
+   transform: skewY(2deg);
+   height: 100px;
+   margin: -50px;
+   background-size: cover;
+
+}
+
+//Effects -----------------
+.textOverlay {
+  transition: all .2s;
+}
+.txtOverlay:hover {
+  transform: scale(1.02);
+}
+
+//Owl -----------------
+
+.owl {
+  position: absolute;
+  right: 0 ;
+  top: 10vh;
+}
+.eyes {
+  fill:#953d3d;
+  stroke:#000;
+  stroke-width:2.5px;
+}
+.eyeball {
+  fill:#ebebeb;
+  stroke:#000;
+  stroke-width:2.5px;
+}
