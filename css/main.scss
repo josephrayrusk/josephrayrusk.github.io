@@ -25,12 +25,12 @@ h1,h2,h3 {
   margin-right: 5px;
 }
 h1 {
-  font-size: 100px;
+  font-size: 6vh;
   color: $heading;
 }
 h3 {
   color: $subHeading;
-  font-size: 1em;
+  font-size: 3vh;
 }
 ul {
   line-height: 2em;
@@ -163,7 +163,7 @@ h3 {
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 3vh;
 }
 
 .bg-primary {
@@ -188,7 +188,7 @@ h3 {
 .owl {
   position: absolute;
   right: 0 ;
-  top: 10vh;
+  top: 10vw;
 }
 .eyes {
   fill:#953d3d;
