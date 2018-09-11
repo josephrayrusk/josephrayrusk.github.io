@@ -16,12 +16,15 @@ h1, h2, h3 {
   margin-right: 5px; }
 
 h1 {
-  font-size: 100px;
-  color: #fff; }
+  font-size: 6vh;
+  color: #fff;
+margin-left: 5px;
+margin-right: 5px;
+}
 
 h3 {
   color: #F5F5F5;
-  font-size: 1em; }
+  font-size: 3vh; }
 
 ul {
   line-height: 2em; }
@@ -96,7 +99,8 @@ ul {
     opacity: 1; } }
 @media (min-width: 700px) {
   h3 {
-    font-size: 50px; } }
+    font-size: 3vh }
+  }
 .btn-xl {
   padding: 1.25rem 2.5rem;
   border-width: 3px;
@@ -132,7 +136,7 @@ ul {
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
-  font-size: 40px; }
+  font-size: 3vh; }
 
 .bg-primary {
   background-color: white !important;
@@ -150,7 +154,7 @@ ul {
 .owl {
   position: absolute;
   right: 0;
-  top: 10vh; }
+  top: 10vw; }
 
 .eyes {
   fill: #953d3d;
